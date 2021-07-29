@@ -157,7 +157,8 @@ body {
   font-family: inherit;
   cursor: pointer;
 }
-.filter .button:hover {
+.filter .button:hover .filter,
+.button:focus {
   color: var(--white-color-text);
   background-color: var(--accent-text-color);
 }
