@@ -12,31 +12,41 @@
 }
 body {
   font-family: roboto, sans-serif;
-  background-color: #ffffff;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+
 /* Site nav */
 .logo {
   font-family: raleway, sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
+  text-decoration: none;
 }
 .logo .web {
   color: var(--logo-web-color);
 }
-.logo .studio {
+.logo .studio-dark {
   color: var(--logo-studio-color);
+}
+.logo .studio-light {
+  color: #ffffff;
 }
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -44,6 +54,8 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
+  width: 1600px;
+  height: 600px;
 }
 /* Hero */
 .hero {
@@ -53,32 +65,50 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
 }
 .button {
   background-color: var(--accent-text-color);
   color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  font-size: 16px;
+  line-height: 1.88;
 }
 /* Section */
 .section .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--title-text-color);
+}
+.section .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
-  font-weight: 16px;
+  line-height: 1.14;
 }
 .section .description {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 .our-team {
   background-color: #f5f4fa;
 }
 .section .team-name {
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
 }
-.link {
-  text-decoration: none;
+.section .position {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
 }
